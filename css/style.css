@@ -3,10 +3,13 @@ body {
     font-size: 16px;
     text-align: justify;
     padding: 1%;
+    background-image: linear-gradient(to bottom,#113E59, #2995D9, #6DB4DF);
+    background-attachment: fixed;
 }
 
 nav {
     text-align: center;
+    background-color: whitesmoke;
 }
 
 #atendimento {
@@ -23,7 +26,7 @@ header {
 }
 h1 {
     text-align: center;
-    color: #2C4859;
+    color: #113E59;
     font-size: 22px;
 }
 h2 {
@@ -46,6 +49,13 @@ h2 {
     background-color: #2995D9;
     text-align: center;
     padding: 1%;
+}
+#cursos{
+    background-color: #2995D9;
+    text-align: center;
+    padding: 1%;
+    width: 90%;
+    margin: auto;
 }
 h4 {
     color: white;
@@ -75,4 +85,13 @@ a:link, a:visited, a:active {
 a:hover {
     background-color: #2995D9;
     color:white;
+    transition: 0.5s;
+}
+#container {
+    background: white;
+    padding: 1px;
+    border-radius: 3px;
+}
+.conteudo {
+    padding: 5%;
 }
